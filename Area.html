@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypotenuse</title>
-    <link href= "Hypotenuse.css" rel="stylesheet"/>
+    <title>Area of triangle</title>
+    <link href= "Area.css" rel="stylesheet"/>
     
 
 </head>
@@ -16,17 +16,23 @@
        <br> <a href="quiz.html"> Triangle Quiz</a>
        <br> <a href="Hypotenuse.html"> Calculate Hypotenuse</a>
        <br> <a href="Area.html"> Calculate Area</a>
-
+       
     </nav>
-    <h1>Calculate Hypotenuse of a triangle</h1>
+    <h1>Calculate Area of Triangle</h1>
     <p>
-    <label>Enter base value(a) = </label>
+    <label>Enter first side of a triangle </label>
     <p>
     <input type = "number" class = "side-input"/>
     </p>
     </p>
     <p>
-    <label>Enter height value(b) = </label>
+    <label>Enter second side of a triangle</label>
+    <p>
+    <input type= "number"  class = "side-input"/>
+    </p>
+    </p>
+    <p>
+    <label>Enter third side of a triangle</label>
     <p>
     <input type= "number"  class = "side-input"/>
     </p>
@@ -34,12 +40,12 @@
 
     <br>
 
-    <button id ="hypotenuse-btn">Calculate Hypotenuse</button>
-    <div id= "output"></div>
+    <button id ="Calculate-btn">Calculate Areaoftriangle</button>
+    <div id= "output1"></div>
     <br><br>
-    <p>Hypotenuse Formula</p>
-    <p>√(base² + height²)</p>
+    <p>Area Formula</p>
+    <p>√s(s−a)(s−b)(s−c)</p>
 
-    <script src = "Hypotenuse.js"></script>
+    <script src = "Area.js"></script>
 </body>
 </html>
